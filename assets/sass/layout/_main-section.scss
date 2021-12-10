@@ -1,0 +1,66 @@
+//Layout - cursos
+.cursos{
+    &__row{
+        padding: 5px;
+        border: gray 2px solid;
+    }
+    &__separator{
+        background-color: $cs-black;
+        color: $cs-white;
+        font-weight: bold;
+    }
+}
+.curso{
+    margin-top: 5px;
+    padding: 10px;
+    border: lightgray 2px solid;
+    &__img{
+        width: 100%;
+        &--logo{
+        width: auto;
+        height: 100%;
+        }
+        &--logo-animado{
+            height: 40vh;
+        }
+    }
+    &__logo-container{
+        height: 20vh;
+    }
+    &__rrss-container{
+        & a {
+            color: $cs-black !important;
+        }
+    }
+    & i{
+        padding-right: 2.5px;
+        padding-left: 2.5px;
+    }
+}
+
+//Layouts - Author
+.author{
+    &__img-small{
+        width: 15vh;
+        height: auto;
+    }
+    &__title{
+        font-weight: bold;
+    }
+    &__subtitle{
+        color: gray;
+    }
+    &__btn{
+        &--blue{
+            background-color:skyblue;
+        }
+        &--red{
+            background: yellow;
+        }
+    }
+}
+
+.btn{
+    color: $white;
+    border-radius: 0;
+}

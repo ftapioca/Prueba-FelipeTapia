@@ -1,0 +1,12 @@
+.heroimage{
+    background-image: url('../img/desarrolloweb2021t.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 35vh;
+    @include phone-view{
+        height: 35vh;
+    }
+    @include laptop-view{
+        height: 55vh;
+    }
+}

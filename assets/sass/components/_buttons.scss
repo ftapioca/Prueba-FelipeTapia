@@ -1,0 +1,8 @@
+//Components - Buttons
+.btn{
+    background-color: $cs-orange;
+    color: $cs-black;
+    &:hover{
+        background-color: $cs-white;
+    }
+}

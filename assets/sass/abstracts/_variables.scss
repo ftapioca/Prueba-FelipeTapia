@@ -1,19 +1,23 @@
 // Color Scheme
 
 // Whites
-$white: #FFF;
+$cs-white: #FFF;
 
 // Blacks
-$black: #000000;
-$sable: #060606;
-$charcoal: #2E1503;
+$cs-black: #000000;
+$cs-sable: #060606;
+$cs-charcoal: #2E1503;
+
+// Oranges
+$cs-tangerine: #ffaf6d;
+$cs-orange: #ffa500;
 
 
 // Tipography
 
 // Font Family
-$poppins: 'Poppins', sans-serif;
-$ubuntu: 'Ubuntu', sans-serif;
+$ff-poppins: 'Poppins', sans-serif;
+$ff-ubuntu: 'Ubuntu', sans-serif;
 
 // Font Weight
 $font-regular: 400;
@@ -29,3 +33,17 @@ $large: 20;
 $medium: 16px;
 $small: 14px;
 $x-small: 12px;
+
+// Sizes
+
+$min-laptop: 768px;
+$min-phone: 576px;
+
+//breakpoints
+
+$breakpoints: (
+        'small': (min-width: 576px),
+        'medium': (min-width: 768px),
+        'large': (min-width: 992px),
+        'extralarge': (min-width: 1200px),
+);
